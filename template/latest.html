@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>360 News.ge</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar"style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/static/logo-search-grid-1x-removebg-preview.png" alt="360News" width="175" height="155">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="About.html">About </a>
+                    <a class="nav-link" href="latest.html">Latest</a>
+                    <a class="nav-link" href="investigations.html">Investigations</a>
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                    <a class="nav-link" href="#">Log In</a>
+                </div>
+            </div>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img src="/static/Nasa-moon.jpeg" alt="news2" class="img-fluid">
+                <h3 class="mt-3"><a href="Moon.html"> Lunar Oasis: NASA's Ambitious Plan to Establish Sustainable Outpost on the Moon </a></h3>
+                <p>Posted By<strong> <a href="Jack-scofield.html"> Jack Scofield</a> </strong> January 4, 2023</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="/static/disease.jpeg" alt="news2" class="img-fluid">
+                <h3 class="mt-3"><a href="disease2.html">Breakthrough Drug Promises Game-Changing Treatment for Incurable Disease</a></h3>
+                <p>Posted By<strong> <a href="Laura-burrows.html">Laura Burrows</a> </strong> January 8, 2024</p>
+                
+            
+            
+            </div>
+            
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="/static/sucre-noise.webp" alt="news2" class="img-fluid">
+                <h3 class="mt-3"><a href="sucre-noise.html"> Scientists Discover the Impact of Human Noise on Wildlife</a> </h3>
+                <p>Posted By<strong> <a href="John-Sucre.html"> John Sucre </a> </strong> January 9, 2024 </p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="/static/Bellick-smart.jpeg" alt="news2" class="img-fluid">
+                <h3 class="mt-3"><a href="Bellick-smart.html"> 5G Evolution: Smart Cities Embrace Cutting-Edge Connectivity for a Futuristic Urban Experience</a> </h3>
+                <p>Posted By<strong> <a href="Monica-bellick.html"> Monica Bellick </a> </strong> January 2, 2024 </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-r/tCzDrh6lcV4QAY2uLiE5P/+6px6Ki3wNxCe10+A/EhlNflhqCPwCJtefMDlfl0"
+        crossorigin="anonymous"></script>
+    </script>
+    <script src="{{ url_for('static', filename='search.js') }}"></script>
+</body>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  main p {
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }a:link {
+    color: #1098ad;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #1098ad;
+  }
+  
+  a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+  }
+  
+  a:active {
+    background-color: black;
+    font-style: italic;
+  }
+  .form-check {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    margin-top: 1rem;
+  }
